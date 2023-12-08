@@ -5,11 +5,13 @@ import { Stack } from "expo-router";
 const DayDetailsScreens = () => {
   return (
     <View>
-
-        <Stack.Screen options={{title:"Day 1"}}/>
-      <Text>Day Detail Screen1</Text>
+      <Stack.Screen options={{ title: "Day 1" }} />
+      
+      <Text style={{ fontFamily: "AmaticBold", fontSize: 100 }}>
+        Day Detail Screen1
+      </Text>
     </View>
   );
 };
 
-export default DayDetailsScreens
+export default DayDetailsScreens;
