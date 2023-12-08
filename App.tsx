@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello World!</Text>
-      <Text>#DEVember</Text>
+      <Text>#DEVember With notJust</Text>
       <StatusBar style="auto" />
     </View>
   );
