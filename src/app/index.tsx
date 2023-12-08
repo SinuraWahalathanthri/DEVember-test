@@ -4,7 +4,7 @@ import {
   View,
   FlatList,
 } from "react-native";
-import DayListItem from "../components/core/DayListItem";
+import DayListItem from "@components/core/DayListItem";
 import * as SplashScreen from "expo-splash-screen";
 
 SplashScreen.preventAutoHideAsync();
